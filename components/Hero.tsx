@@ -42,10 +42,10 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.12 }}
             className="lede mt-6 max-w-xl text-pretty"
           >
-            A family-owned CPA firm in Deerfield, Illinois — three generations
-            of practice, IRS Enrolled Agents, certified public accountants, and
-            an attorney on staff. We prepare returns, plan ahead, and stand
-            between you and the IRS when it matters.
+            A family-owned CPA firm in Deerfield, Illinois. Three generations of
+            practice, IRS Enrolled Agents, certified public accountants, and an
+            attorney on staff. We prepare returns, plan ahead, and stand between
+            you and the IRS when it matters.
           </motion.p>
 
           <motion.div

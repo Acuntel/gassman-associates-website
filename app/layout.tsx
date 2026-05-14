@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_SITE_URL || "https://gassmancpa.com",
   ),
   title: {
-    default: `${FIRM.name} — CPAs in Deerfield, IL`,
+    default: `${FIRM.name}, CPAs in Deerfield, IL`,
     template: `%s · ${FIRM.name}`,
   },
   description: FIRM.tagline,
@@ -38,14 +38,14 @@ export const metadata: Metadata = {
     "small business accountant",
   ],
   openGraph: {
-    title: `${FIRM.name} — CPAs in Deerfield, IL`,
+    title: `${FIRM.name}, CPAs in Deerfield, IL`,
     description: FIRM.tagline,
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: `${FIRM.name} — CPAs in Deerfield, IL`,
+    title: `${FIRM.name}, CPAs in Deerfield, IL`,
     description: FIRM.tagline,
   },
   icons: { icon: "/favicon.svg" },

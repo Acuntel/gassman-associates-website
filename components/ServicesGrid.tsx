@@ -15,7 +15,7 @@ export default function ServicesGrid({
           <div className="max-w-xl">
             <p className="eyebrow">What we do</p>
             <h2 className="h-section mt-3 text-balance">
-              Tax and accounting expertise — start to finish.
+              Tax and accounting expertise, start to finish.
             </h2>
           </div>
           {compact && (

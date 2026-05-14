@@ -161,7 +161,7 @@ export default function ChatWidget() {
           const c = [...m];
           c[c.length - 1] = {
             role: "assistant",
-            content: `Sorry — I had trouble responding. Please call us at ${FIRM.phone}.`,
+            content: `Sorry, I had trouble responding. Please call us at ${FIRM.phone}.`,
           };
           return c;
         });
@@ -186,7 +186,7 @@ export default function ChatWidget() {
         const c = [...m];
         c[c.length - 1] = {
           role: "assistant",
-          content: `Sorry — I had trouble responding. Please call us at ${FIRM.phone}.`,
+          content: `Sorry, I had trouble responding. Please call us at ${FIRM.phone}.`,
         };
         return c;
       });
@@ -266,7 +266,7 @@ export default function ChatWidget() {
             {!lead ? (
               <form onSubmit={submitLead} className="p-5">
                 <p className="text-sm text-ink">
-                  Before we chat — what's the best way to reach you if we get
+                  Before we chat, what's the best way to reach you if we get
                   cut off?
                 </p>
                 {error && (
@@ -327,7 +327,7 @@ export default function ChatWidget() {
                   Start the conversation
                 </button>
                 <p className="mt-3 text-[11px] leading-relaxed text-muted">
-                  We use this only so the team can follow up. No spam — ever.
+                  We use this only so the team can follow up. No spam, ever.
                 </p>
               </form>
             ) : (

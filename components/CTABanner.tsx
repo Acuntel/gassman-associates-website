@@ -23,7 +23,7 @@ export default function CTABanner() {
               </h2>
               <p className="mt-4 text-ink/75 leading-relaxed max-w-xl">
                 Tell us a little about your situation and we'll walk you through
-                what working with the firm looks like — fees, process,
+                what working with the firm looks like: fees, process, and
                 expectations.
               </p>
             </div>

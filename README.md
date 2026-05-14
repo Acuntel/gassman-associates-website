@@ -1,4 +1,4 @@
-# Gassman & Associates — Website
+# Gassman & Associates: Website
 
 Production website for **B. Robert Gassman and Associates**, a family-owned CPA firm in Deerfield, IL.
 
@@ -28,7 +28,7 @@ Open <http://localhost:3000>.
 
 ## Single source of truth
 
-All firm content (name, team, services, hours, address, FAQs) lives in `lib/gassman-data.ts`. Edit there — the homepage, chatbot, footer, and sitemap all read from it.
+All firm content (name, team, services, hours, address, FAQs) lives in `lib/gassman-data.ts`. Edit there, the homepage, chatbot, footer, and sitemap all read from it.
 
 ## AI chatbot
 

@@ -1,6 +1,6 @@
 # Environment Variables
 
-Copy the block below into `.env.local` at the project root and fill in real values. `.env.local` is gitignored — never commit secrets.
+Copy the block below into `.env.local` at the project root and fill in real values. `.env.local` is gitignored, never commit secrets.
 
 ```bash
 # --- Anthropic (chatbot) ---
@@ -21,15 +21,15 @@ NEXT_PUBLIC_SITE_URL=https://gassmancpa.com
 
 ## One-time setup checklist
 
-1. **Anthropic key** — reuse the existing `bschwartz1725@gmail.com` Anthropic account or create a new key at <https://console.anthropic.com>. Paste as `ANTHROPIC_API_KEY`.
-2. **Resend** — create an API key at <https://resend.com/api-keys>. To send from a custom Gassman address, verify the `gassmancpa.com` domain in Resend → Domains, then switch `LEAD_FROM_EMAIL` to e.g. `Gassman & Associates <noreply@gassmancpa.com>`.
-3. **Vercel** — under Project → Settings → Environment Variables, paste each variable for all three environments (Production, Preview, Development).
-4. **Local dev** — copy the block above into `.env.local`.
+1. **Anthropic key:** reuse the existing `bschwartz1725@gmail.com` Anthropic account or create a new key at <https://console.anthropic.com>. Paste as `ANTHROPIC_API_KEY`.
+2. **Resend:** create an API key at <https://resend.com/api-keys>. To send from a custom Gassman address, verify the `gassmancpa.com` domain in Resend → Domains, then switch `LEAD_FROM_EMAIL` to e.g. `Gassman & Associates <noreply@gassmancpa.com>`.
+3. **Vercel:** under Project → Settings → Environment Variables, paste each variable for all three environments (Production, Preview, Development).
+4. **Local dev:** copy the block above into `.env.local`.
 
 ## Dev-mode behavior without API keys
 
 - If `ANTHROPIC_API_KEY` is missing, the `/api/chat` route returns a 500 explaining that chat is not configured.
-- If `RESEND_API_KEY` is missing, both the chat-lead and contact endpoints log payloads to the server console and return `{ success: true, dev: true }` — useful for local testing without sending real email.
+- If `RESEND_API_KEY` is missing, both the chat-lead and contact endpoints log payloads to the server console and return `{ success: true, dev: true }`, useful for local testing without sending real email.
 
 ## Lead destination
 

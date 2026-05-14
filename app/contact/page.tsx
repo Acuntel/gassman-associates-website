@@ -6,7 +6,7 @@ import { FIRM } from "@/lib/gassman-data";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Reach Gassman & Associates in Deerfield, IL — phone, email, address, and direct contact form. No charge for the first conversation.",
+    "Reach Gassman & Associates in Deerfield, IL, phone, email, address, and direct contact form. No charge for the first conversation.",
 };
 
 export default function ContactPage() {
@@ -22,7 +22,7 @@ export default function ContactPage() {
             Send a note. Call the office. Stop by.
           </h1>
           <p className="lede mt-5 max-w-2xl text-pretty">
-            We respond to every inquiry — usually the same day, never longer
+            We respond to every inquiry, usually the same day, never longer
             than one business day. There's no charge for the first conversation.
           </p>
         </div>

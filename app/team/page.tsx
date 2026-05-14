@@ -5,7 +5,7 @@ import { TEAM } from "@/lib/gassman-data";
 export const metadata: Metadata = {
   title: "Our Team",
   description:
-    "Meet the CPAs, IRS Enrolled Agents, attorney, and staff at Gassman & Associates — a family-owned firm in Deerfield, Illinois.",
+    "Meet the CPAs, IRS Enrolled Agents, attorney, and staff at Gassman & Associates, a family-owned firm in Deerfield, Illinois.",
 };
 
 export default function TeamPage() {
@@ -19,7 +19,7 @@ export default function TeamPage() {
           </h1>
           <p className="lede mt-5 max-w-2xl text-pretty">
             A small practice on purpose. When you call, you reach a person you
-            know — not a queue.
+            know, not a queue.
           </p>
         </div>
       </section>

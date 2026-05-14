@@ -80,7 +80,7 @@ export const SERVICES: {
 ];
 
 export const DIFFERENTIATORS = [
-  "Established in 1965 — three generations of practice",
+  "Established in 1965, three generations of practice",
   "IRS Enrolled Agents on staff",
   "Certified Public Accountants on staff",
   "Attorney on staff for legal-adjacent tax matters",
@@ -103,7 +103,7 @@ export const TEAM: TeamMember[] = [
     title: "Founder",
     credentials: "Co-founder",
     email: "lynn@gassmancpa.com",
-    bio: "Lynn built the firm alongside her husband Bob, the late founder. She remains the steward of the firm's culture — its administrator, its advocate, and the keeper of the relationships that have spanned generations of client families.",
+    bio: "Lynn built the firm alongside her husband Bob, the late founder. She remains the steward of the firm's culture, its administrator, its advocate, and the keeper of the relationships that have spanned generations of client families.",
   },
   {
     slug: "michael-collins",
@@ -143,7 +143,7 @@ export const TEAM: TeamMember[] = [
     title: "Assistant",
     credentials: "Operations",
     email: "linn@gassmancpa.com",
-    bio: "Linn is the steady hand behind the firm's day-to-day. She keeps the calendar moving, the clients welcomed, and — particularly during tax season — every file in its right place. She is integral to both the family and the business.",
+    bio: "Linn is the steady hand behind the firm's day-to-day. She keeps the calendar moving, the clients welcomed, and, particularly during tax season, every file in its right place. She is integral to both the family and the business.",
   },
 ];
 
@@ -162,11 +162,11 @@ export const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "What does it cost to file a return with you?",
-    a: "Fees vary based on the complexity of the return — number of states, business entities, schedules, and the work required outside of filing season. We will give you a straight-forward estimate after a brief conversation about your situation.",
+    a: "Fees vary based on the complexity of the return: number of states, business entities, schedules, and the work required outside of filing season. We will give you a straight-forward estimate after a brief conversation about your situation.",
   },
   {
     q: "Do you handle business returns as well as personal?",
-    a: "Yes. We file for individuals, families, partnerships, S-corporations, C-corporations, trusts, and estates — and we coordinate the personal and business filings together so nothing falls through the cracks.",
+    a: "Yes. We file for individuals, families, partnerships, S-corporations, C-corporations, trusts, and estates. We coordinate the personal and business filings together so nothing falls through the cracks.",
   },
   {
     q: "Can you represent me if the IRS audits me?",

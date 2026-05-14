@@ -4,7 +4,7 @@ import { FIRM } from "@/lib/gassman-data";
 export const metadata: Metadata = {
   title: "About the Firm",
   description:
-    "A family-owned CPA and consulting firm in Deerfield, Illinois since 1980, founded by Bob Gassman in 1965 — now in its third generation of practice.",
+    "A family-owned CPA and consulting firm in Deerfield, Illinois since 1980, founded by Bob Gassman in 1965, now in its third generation of practice.",
 };
 
 export default function AboutPage() {
@@ -26,7 +26,7 @@ export default function AboutPage() {
               Bob Gassman started the firm in 1965 after returning from duty
               with the US Navy and graduating from Roosevelt University. The
               practice grew with the help of his wife Lynn, their daughter
-              Lauren, and son-in-law Mike — three generations who built the firm
+              Lauren, and son-in-law Mike, three generations who built the firm
               one client conversation at a time.
             </p>
             <p>
@@ -37,7 +37,7 @@ export default function AboutPage() {
               their first 1040.
             </p>
             <p>
-              The work is technical — federal and state tax codes, multi-state
+              The work is technical: federal and state tax codes, multi-state
               filing rules, IRS procedure, entity structure. The job is to make
               it feel less so. Our team includes Certified Public Accountants,
               IRS Enrolled Agents, and an attorney, so the credentials are

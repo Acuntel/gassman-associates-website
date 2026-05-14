@@ -6,7 +6,7 @@ import { SERVICES, FIRM } from "@/lib/gassman-data";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Income tax filings, multi-state taxation, IRS representation, consulting, planning and forecasting — provided by CPAs, Enrolled Agents, and an attorney on staff in Deerfield, IL.",
+    "Income tax filings, multi-state taxation, IRS representation, consulting, planning and forecasting, provided by CPAs, Enrolled Agents, and an attorney on staff in Deerfield, IL.",
 };
 
 export default function ServicesPage() {
@@ -20,7 +20,7 @@ export default function ServicesPage() {
           </h1>
           <p className="lede mt-5 max-w-2xl text-pretty">
             Five service lines that cover the tax and accounting needs of
-            families and the businesses they own — backed by sixty years of
+            families and the businesses they own, backed by sixty years of
             practice and credentialed staff at every step.
           </p>
         </div>
@@ -66,7 +66,7 @@ export default function ServicesPage() {
               </h2>
               <p className="mt-4 lede max-w-xl text-pretty">
                 Send a short note or call us. We'll point you in the right
-                direction — even if that means recommending someone else.
+                direction, even if that means recommending someone else.
               </p>
             </div>
             <div className="flex flex-col gap-3 sm:flex-row md:flex-col">
